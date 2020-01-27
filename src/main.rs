@@ -296,7 +296,7 @@ fn extend_logs() -> Result<()> {
 }
 
 fn main() -> Result<()> {
-    //fetch_logs().unwrap();
+    fetch_logs().unwrap();
     println!("Unpacking OK, performing analytics...");
 
     extend_logs().unwrap();
